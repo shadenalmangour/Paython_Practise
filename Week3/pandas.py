@@ -16,9 +16,13 @@ np_2Darray1=np.array([[1,2,3,4],
                    [9,10,11,12]])
 print(np_2Darray1[[0,2],:2])
 
+
+
 height=[1.90,1.54,1.56,1.70,2.00,1.68]
 np_array_height=np.array(height)
 print(np.mean(np_array_height))
+
+
 #import data from excel file 
 world_population=pd.read_excel("countries.xlsx",index_col=0)
 
