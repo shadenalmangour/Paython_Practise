@@ -14,8 +14,8 @@ print(type(salary))
 
 full_name= "Shaden Tariq"
 
-married=True
-x=False
+married=False
+x=True
 
 ##############Testing###################
 a=10
