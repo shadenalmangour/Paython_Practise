@@ -5,7 +5,7 @@ import numpy as np
 movies_dataset=pd.read_excel("movie_metadata.xlsx")
 
 #Question 1
-
+#استخدام التابع shape، ما هو عدد الأسطر والأعمدة الموجودة في البيانات؟
 print(movies_dataset.shape)
 
 #Question 2
